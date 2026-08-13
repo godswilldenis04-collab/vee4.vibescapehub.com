@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1300776078931361');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1300776078931361&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=yes">
+  <title>Amazing Data Plans | Nigeria's Best Telecom Offers</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background: #F9F9FC;
+      font-family: system-ui, 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+      line-height: 1.4;
+      color: #1a2c3e;
+      position: relative;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: radial-gradient(#E2E8F0 1px, transparent 1px);
+      background-size: 24px 24px;
+      opacity: 0.4;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      top: -10%;
+      left: -10%;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(245, 166, 35, 0.15) 0%, rgba(230,240,255,0) 70%);
+      border-radius: 50%;
+      filter: blur(60px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .bg-blur-shape-1 {
+      position: fixed;
+      bottom: -10%;
+      right: -10%;
+      width: 380px;
+      height: 380px;
+      background: radial-gradient(circle, rgba(44, 62, 80, 0.08) 0%, rgba(210,225,245,0) 70%);
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 16px 20px 32px;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 0;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 6px 14px 6px 8px;
+      border-radius: 100px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+      border: 1px solid rgba(255,255,255,0.6);
+    }
+
+    .logo-icon {
+      background: linear-gradient(135deg, #2C3E50, #1A2A3A);
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .logo-icon span {
+      font-size: 18px;
+    }
+
+    .logo-text {
+      font-weight: 800;
+      font-size: 1.25rem;
+      letter-spacing: -0.4px;
+      color: #1A2C3E;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 14px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 8px 16px;
+      border-radius: 60px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+      border: 1px solid rgba(255,255,255,0.6);
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: #2C3E50;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover { color: #F5A623; }
+
+    .layout-spacer {
+      flex: 1;
+      min-height: 60px; 
+    }
+
+    .card, .loading-card {
+      background: #FFFFFF;
+      border-radius: 28px;
+      padding: 28px 24px;
+      box-shadow: 0 24px 48px -12px rgba(26, 44, 62, 0.08), 0 1px 3px rgba(0,0,0,0.02);
+      border: 1px solid rgba(0,0,0,0.02);
+      width: 100%;
+      text-align: center;
+    }
+
+    .card-title {
+      font-weight: 800;
+      font-size: 1.35rem;
+      margin-bottom: 24px;
+      color: #1A2C3E;
+      border-left: 5px solid #F5A623;
+      padding-left: 14px;
+      text-align: left;
+    }
+
+    .network-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .network-btn {
+      background: #F8F9FC;
+      border: 1px solid #E9EDF2;
+      padding: 16px 12px;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      font-family: inherit;
+      color: #2C3E50;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .network-btn:hover {
+      background: #F1F3F7;
+      border-color: #CBD5E1;
+    }
+
+    .network-btn.selected {
+      background: linear-gradient(135deg, #1A2C3E, #2C4A6E);
+      color: #FFFFFF;
+      border-color: #1A2C3E;
+      box-shadow: 0 8px 20px -6px rgba(26, 44, 62, 0.3);
+      transform: translateY(-1px);
+    }
+
+    .network-btn .check-mark {
+      display: none;
+      background: #2ECC71;
+      color: white;
+      font-size: 11px;
+      width: 18px;
+      height: 18px;
+      line-height: 18px;
+      border-radius: 50%;
+      text-align: center;
+    }
+
+    .network-btn.selected .check-mark {
+      display: inline-block;
+    }
+
+    .proceed-btn, .subscribe-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #FFC107, #F5A623);
+      border: none;
+      padding: 16px 24px;
+      border-radius: 100px;
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: #1A2C3E;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 10px 24px -8px rgba(245, 166, 35, 0.4);
+    }
+
+    .proceed-btn:hover, .subscribe-btn:hover {
+      box-shadow: 0 12px 28px -6px rgba(245, 166, 35, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .proceed-btn:active, .subscribe-btn:active {
+      transform: translateY(1px);
+      box-shadow: 0 6px 14px -5px rgba(245, 166, 35, 0.4);
+    }
+
+    .spinner {
+      width: 44px;
+      height: 44px;
+      border: 4px solid #F0F2F5;
+      border-top: 4px solid #F5A623;
+      border-radius: 50%;
+      margin: 12px auto 20px;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .loading-text {
+      font-weight: 700;
+      color: #1A2C3E;
+      font-size: 1.1rem;
+      margin-bottom: 6px;
+    }
+
+    .sub-message {
+      font-size: 0.85rem;
+      color: #6B8A9B;
+    }
+
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 22, 30, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .popup-overlay.active {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup-card {
+      background: white;
+      max-width: 340px;
+      width: 88%;
+      border-radius: 32px;
+      padding: 36px 24px;
+      text-align: center;
+      box-shadow: 0 32px 64px -16px rgba(0,0,0,0.24);
+      transform: scale(0.9);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .popup-overlay.active .popup-card {
+      transform: scale(1);
+    }
+
+    .check-icon {
+      background: #2ECC71;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      font-size: 32px;
+      color: white;
+      box-shadow: 0 8px 20px rgba(46, 204, 113, 0.3);
+    }
+
+    .popup-card h2 {
+      font-size: 1.7rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: #1A2C3E;
+    }
+
+    .popup-card p {
+      color: #5A7184;
+      margin-bottom: 28px;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .error-msg {
+      margin-top: 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #D32F2F;
+      background-color: #FFEBEE;
+      padding: 10px 16px;
+      border-radius: 50px;
+      animation: fadeIn 0.2s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hidden { display: none !important; }
+
+    .live-notification-left {
+      position: fixed;
+      left: 12px;
+      bottom: 20px;
+      z-index: 95;
+      max-width: 260px;
+      width: auto;
+      pointer-events: none;
+    }
+
+    .notification-toast {
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 40px;
+      padding: 6px 14px 6px 10px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+      border-left: 3px solid #F5A623;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      font-size: 0.7rem;
+      color: #FFECB3;
+      font-family: 'SF Mono', monospace;
+      transition: all 0.3s ease;
+      opacity: 1;
+      transform: translateX(0);
+      animation: slideInLeftSmall 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+      white-space: nowrap;
+    }
+
+    @keyframes slideInLeftSmall {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .pulse-dot-left {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: #2ECC71;
+      border-radius: 50%;
+      flex-shrink: 0;
+      box-shadow: 0 0 4px #2ECC71;
+      animation: pulseGreenSmall 1s infinite;
+    }
+
+    @keyframes pulseGreenSmall {
+      0% { opacity: 0.5; transform: scale(0.7);}
+      100% { opacity: 1; transform: scale(1.1);}
+    }
+
+    .notification-icon {
+      font-size: 0.75rem;
+      flex-shrink: 0;
+    }
+
+    .notification-text {
+      line-height: 1.3;
+      white-space: nowrap;
+      overflow-x: auto;
+      max-width: 180px;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      font-size: 0.7rem;
+      scrollbar-width: none;
+    }
+    
+    .notification-text::-webkit-scrollbar {
+      display: none;
+    }
+
+    @media (max-width: 560px) {
+      .live-notification-left {
+        left: 8px;
+        bottom: 12px;
+        max-width: 240px;
+      }
+      .notification-toast {
+        padding: 5px 12px 5px 8px;
+        gap: 6px;
+      }
+      .notification-text {
+        font-size: 0.65rem;
+        max-width: 160px;
+      }
+      .notification-icon {
+        font-size: 0.7rem;
+      }
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #7A8E9B;
+      margin-top: auto;
+      padding-top: 32px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-blur-shape-1"></div>
+
+  <div class="container">
+    <div class="header">
+      <div class="logo-area">
+        <div class="logo-icon"><span>📡</span></div>
+        <div class="logo-text">Vibescape<span style="color:#F5A623;">hub</span>.com</div>
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Share Data</a>
+        <a href="#">5G Network</a>
+      </div>
+    </div>
+
+    <div class="layout-spacer"></div>
+
+    <div id="networkSelectionCard" class="card">
+      <div class="card-title">Select Your Mobile Carrier</div>
+      <div class="network-grid" id="networkGrid">
+        <button data-network="MTN" class="network-btn">MTN <span class="check-mark">✓</span></button>
+        <button data-network="Airtel" class="network-btn">Airtel <span class="check-mark">✓</span></button>
+        <button data-network="Glo" class="network-btn">Glo <span class="check-mark">✓</span></button>
+        <button data-network="9mobile" class="network-btn">9mobile <span class="check-mark">✓</span></button>
+      </div>
+      <button id="proceedBtn" class="proceed-btn">Proceed →</button>
+      <div id="msgContainer"></div>
+    </div>
+
+    <div id="loadingCard" class="loading-card hidden">
+      <div class="spinner"></div>
+      <div class="loading-text">Please wait...</div>
+      <div class="sub-message" id="loadingSubMsg">Checking eligibility for selected offer...</div>
+    </div>
+
+    <div class="layout-spacer"></div>
+
+    <footer>
+      🇳🇬 Trusted by millions | Offer valid for limited period
+    </footer>
+  </div>
+
+  <div id="successPopup" class="popup-overlay">
+    <div class="popup-card">
+      <div class="check-icon">✓</div>
+      <h2>Congrats!</h2>
+      <p>You are qualified for this data offer.</p>
+      <button id="subscribeNowBtn" class="subscribe-btn">SUBSCRIBE NOW</button>
+    </div>
+  </div>
+
+  <div class="live-notification-left" id="liveNotificationLeft">
+    <div class="notification-toast" id="notificationToast">
+      <span class="pulse-dot-left"></span>
+      <span class="notification-icon">📱</span>
+      <span class="notification-text" id="notifMessage">070××××8373 bought 5GB</span>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const networkCardDiv = document.getElementById('networkSelectionCard');
+      const loadingCardDiv = document.getElementById('loadingCard');
+      const successPopup = document.getElementById('successPopup');
+      const proceedButton = document.getElementById('proceedBtn');
+      const subscribeBtn = document.getElementById('subscribeNowBtn');
+      const networkBtns = document.querySelectorAll('.network-btn');
+      const msgContainer = document.getElementById('msgContainer');
+      const notifMessageSpan = document.getElementById('notifMessage');
+      
+      let selectedNetwork = null;
+      let isProceeding = false;
+
+      const OFFER_REDIRECT_URL = "https://www.mousegrepby.wiki/click?offer_id=37502&pub_id=286194&pub_click_id=ADD_CLICK_ID_HERE&site=PASS_SITE_HERE";
+
+      function generateMaskedPhoneNumber() {
+        const prefixes = ["070", "080", "081", "090", "091", "0703", "0806", "0813", "0905"];
+        const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+        let lastFour = Math.floor(Math.random() * 9000 + 1000);
+        if (prefix.length === 3) {
+          return `${prefix}××××${lastFour}`;
+        } else {
+          return `${prefix}××××${lastFour}`;
+        }
+      }
+
+      const buyersList = ["Adebayo", "Chiamaka", "Oluwaseun", "Ifeanyi", "Fatima", "Emeka", "Ngozi", "Tunde", "Blessing", "Victor", "Esther", "Daniel", "Grace", "Samuel", "Precious", "Michael", "Jennifer", "David", "Maryam", "John", "Uche", "Amina", "Peter", "Joy", "Kelvin", "Ruth", "Isaac", "Hauwa", "Chinedu"];
+      const networksList = ["MTN", "Airtel", "Glo", "9mobile"];
+      const dataSizes = ["1.5GB", "3GB", "5GB", "10GB", "15GB", "2GB Night", "6GB", "12GB"];
+      
+      function generateShortPurchaseMessage() {
+        const randomPhone = generateMaskedPhoneNumber();
+        const useName = Math.random() > 0.5;
+        let namePart = "";
+        if (useName) {
+          const randomName = buyersList[Math.floor(Math.random() * buyersList.length)];
+          namePart = `${randomName} `;
+        }
+        const randomNetwork = networksList[Math.floor(Math.random() * networksList.length)];
+        const randomData = dataSizes[Math.floor(Math.random() * dataSizes.length)];
+        
+        const templates = [
+          `${namePart}${randomPhone} bought ${randomData} on ${randomNetwork}`,
+          `${randomPhone} • ${randomData} ${randomNetwork}`,
+          `📲 ${randomPhone} got ${randomData} (${randomNetwork})`,
+          `${randomPhone} ➕ ${randomData} ${randomNetwork}`,
+          `✨ ${randomPhone} • ${randomNetwork} ${randomData}`,
+          `${randomPhone} subscribed to ${randomData}`,
+          `🔥 ${randomPhone} - ${randomData} on ${randomNetwork}`,
+          `${randomPhone} just recharged ${randomData}`
+        ];
+        
+        let msg = templates[Math.floor(Math.random() * templates.length)];
+        if (msg.length > 45) msg = msg.substring(0, 42) + "...";
+        return msg;
+      }
+      
+      let rotationTimeout = null;
+      let isNotifActive = true;
+      
+      function updateSmallNotification() {
+        if (!isNotifActive) return;
+        const freshMsg = generateShortPurchaseMessage();
+        if (notifMessageSpan) {
+          notifMessageSpan.innerText = freshMsg;
+        }
+        const toastElem = document.getElementById('notificationToast');
+        if (toastElem) {
+          toastElem.style.animation = 'none';
+          toastElem.offsetHeight;
+          toastElem.style.animation = 'slideInLeftSmall 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1)';
+          setTimeout(() => {
+            if(toastElem) toastElem.style.animation = '';
+          }, 400);
+        }
+        const nextDelay = Math.floor(Math.random() * (9000 - 4500 + 1) + 4500);
+        rotationTimeout = setTimeout(() => {
+          updateSmallNotification();
+        }, nextDelay);
+      }
+      
+      function startNotificationRotation() {
+        if (rotationTimeout) clearTimeout(rotationTimeout);
+        updateSmallNotification();
+      }
+      
+      startNotificationRotation();
+      
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          if (rotationTimeout) clearTimeout(rotationTimeout);
+          isNotifActive = false;
+        } else {
+          isNotifActive = true;
+          if (!rotationTimeout) startNotificationRotation();
+        }
+      });
+      
+      networkBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          selectedNetwork = btn.getAttribute('data-network');
+          networkBtns.forEach(b => {
+            if(b.getAttribute('data-network') === selectedNetwork) {
+              b.classList.add('selected');
+            } else {
+              b.classList.remove('selected');
+            }
+          });
+          msgContainer.innerHTML = '';
+        });
+      });
+      
+      proceedButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (isProceeding) return;
+        
+        if (!selectedNetwork) {
+          msgContainer.innerHTML = '<div class="error-msg">📱 Select a network first (MTN, Airtel, Glo, 9mobile)</div>';
+          return;
+        }
+        
+        isProceeding = true;
+        networkCardDiv.classList.add('hidden');
+        loadingCardDiv.classList.remove('hidden');
+        document.getElementById('loadingSubMsg').innerText = `Checking eligibility for ${selectedNetwork} offer...`;
+        
+        setTimeout(() => {
+          loadingCardDiv.classList.add('hidden');
+          successPopup.classList.add('active');
+          isProceeding = false;
+        }, 1200);
+      });
+      
+      subscribeBtn.addEventListener('click', () => {
+        window.location.href = OFFER_REDIRECT_URL;
+      });
+      
+      successPopup.addEventListener('click', function(e) {
+        if (e.target === successPopup) {
+          successPopup.classList.remove('active');
+          networkCardDiv.classList.remove('hidden');
+        }
+      });
+      
+    })();
+  </script>
+</body>
+</html>
